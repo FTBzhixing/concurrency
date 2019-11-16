@@ -14,4 +14,10 @@ public class TestController {
     public String test(){
         return "FTB";
     }
+
+    @RequestMapping("/test2")
+    @ResponseBody
+    public String test2(){
+        return "FTB";
+    }
 }
